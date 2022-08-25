@@ -119,14 +119,6 @@ td {
   justify-content: space-between;
 }
 
-#tb1,
-#tb2,
-#tb3,
-#tb4 {
-  padding-top: 30px;
-  padding-left: 29px;
-}
-
 #social {
   padding-top: 30px;
   justify-content: space-between;
@@ -158,10 +150,7 @@ p {
   padding-left: 34px;
 }
 
-#block1,
-#block2,
-#block3,
-#block4 {
+.block {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -170,57 +159,25 @@ p {
   padding: 24px;
 }
 
-#tb3 {
+.tb {
   text-align: left;
   border-spacing: 2px;
   margin-top: 70px;
   padding-left: 30px;
 }
 
-#a1,
-#a2,
-#a3,
-#a4,
-#b1,
-#b2,
-#b3,
-#b4,
-#c1,
-#c2,
-#c3,
-#c4,
-#d1,
-#d2,
-#d3,
-#d4 {
+li {
   font-weight: 600;
+  display: inline-block;
+  margin-top: 30px;
   font-size: 15px;
   padding-right: 3px;
   line-height: 20px;
+  border-right: 1px solid #9f8c8c;
   color: aliceblue;
 }
 
-#a1,
-#a2,
-#a3,
-#b1,
-#b2,
-#b3,
-#c1,
-#c2,
-#c3,
-#d1,
-#d2,
-#d3 {
-  border-right: 1px solid #9f8c8c;
-}
-
-#btn {
-  margin-left: 139px;
-}
-
-button,
-#btn {
+button {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -231,9 +188,6 @@ button,
   background: #7d73fc;
   border: none;
   color: aliceblue;
-}
-
-button {
   margin-left: 28px;
 }
 
@@ -270,28 +224,26 @@ h3 {
   width: 345px;
 }
 
-#media {
-  justify-content: space-between;
+.media {
   display: flex;
   align-items: center;
   flex-direction: row;
-  padding-top: 44px;
-  padding-left: 30px;
+  justify-content: space-between;
+  padding-top: 64px;
+  padding-left: 10px;
   text-align: center;
-  margin-left: 10px;
   width: 200px;
   height: 40px;
 }
 
 #media2 {
-  justify-content: space-between;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   flex-direction: row;
-  padding-top: 44px;
-  padding-left: 30px;
+  padding-top: 64px;
+  padding-right: 22px;
   text-align: center;
-  margin-left: 70px;
   width: 200px;
   height: 40px;
 }
@@ -301,9 +253,7 @@ h3 {
   padding-top: 35px;
 }
 
-#vectorline1,
-#vectorline2,
-#vectorline3 {
+.vectorline {
   position: absolute;
   padding: 20px 0 40px 40px;
 }
@@ -353,9 +303,11 @@ h4 {
   text-align: center;
 }
 
-#feature1,
-#feature2,
-#feature3,
-#feature4 {
+.feature {
   padding-top: 20px;
+}
+
+.button:hover {
+  background-color: #002ead;
+  transition: 0.7s;
 }
