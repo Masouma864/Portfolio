@@ -37,6 +37,7 @@ body {
   width: 327px;
   height: 100px;
 }
+
 h1 {
   font-size: 48px;
   color: #7d73fc;
@@ -68,6 +69,7 @@ h2 {
   padding-left: 54px;
   padding-right: 24px;
 }
+
 #int {
   width: 327px;
   height: 170px;
@@ -79,6 +81,7 @@ h2 {
   text-align: center;
   color: #c8c8d4;
 }
+
 #fex-container {
   flex-wrap: wrap;
   width: 320px;
@@ -88,6 +91,7 @@ h2 {
   flex-direction: column;
   align-items: center;
 }
+
 table {
   color: aliceblue;
   text-align: left;
@@ -95,6 +99,7 @@ table {
   padding-top: 65px;
   padding-left: 30px;
 }
+
 td,
 th {
   text-align: left;
@@ -113,11 +118,13 @@ td {
 #tb {
   padding-top: 30px;
 }
+
 #social {
   padding-top: 30px;
   justify-content: space-between;
   padding-left: 90px;
 }
+
 #recentwork {
   padding-bottom: 22px;
   justify-content: space-between;
@@ -142,6 +149,7 @@ p {
   color: #c8c8d4;
   padding-left: 24px;
 }
+
 #block {
   display: flex;
   flex-direction: column;
@@ -150,12 +158,14 @@ p {
   height: 469px;
   padding: 24px;
 }
+
 #tb3 {
   text-align: left;
   border-spacing: 2px;
   margin-top: 70px;
   padding-left: 30px;
 }
+
 #a,
 #b,
 #c,
@@ -166,11 +176,13 @@ p {
   line-height: 20px;
   color: aliceblue;
 }
+
 #a,
 #b,
 #c {
   border-right: 1px solid #9f8c8c;
 }
+
 #btn {
   margin-left: 139px;
 }
@@ -188,6 +200,7 @@ button,
   border: none;
   color: aliceblue;
 }
+
 button {
   margin-left: 28px;
 }
@@ -215,9 +228,11 @@ h3 {
   align-items: center;
   width: 327px;
 }
+
 #con {
   text-align: center;
 }
+
 .contactform {
   display: flex;
   flex-direction: column;
@@ -226,6 +241,7 @@ h3 {
   position: absolute;
   width: 345px;
 }
+
 #media {
   justify-content: space-between;
   display: flex;
@@ -269,25 +285,29 @@ h3 {
   font-weight: 500;
   font-size: 20px;
 }
+
 input,
 textarea {
   border: 1px solid #e5e5e5;
   width: 200px;
-  color: #999999;
+  color: #999;
   margin-top: 20px;
   margin-left: 30px;
 }
+
 input {
   width: 327px;
   height: 48px;
 }
+
 textarea {
   width: 330px;
   height: 150px;
   line-height: 18px;
 }
+
 h4 {
-  font-family: "Roboto";
+  font-family: sans-serif;
   font-weight: 500;
   font-size: 52px;
   line-height: 44px;
@@ -295,6 +315,7 @@ h4 {
   text-align: center;
   color: #9390ff;
 }
+
 #email {
   color: #ebebff;
   text-align: center;
