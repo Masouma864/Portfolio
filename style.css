@@ -61,19 +61,17 @@ h2 {
 }
 
 #textpart {
-  width: 325px;
+  width: 329px;
   vertical-align: top;
   text-align: center;
-  padding-bottom: 0;
   margin-bottom: 0;
-  padding-left: 54px;
-  padding-right: 24px;
 }
 
-#int {
+#int,
+#con {
   width: 327px;
+  margin-left: 33px;
   height: 170px;
-  padding-top: 40px;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -82,11 +80,13 @@ h2 {
   color: #c8c8d4;
 }
 
-#fex-container {
-  flex-wrap: wrap;
+#int {
+  padding-top: 50px;
+}
+
+#flex-container {
   width: 320px;
   height: 100%;
-  padding: 18px 8px 16px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -97,7 +97,7 @@ table {
   text-align: left;
   border-spacing: 5px;
   padding-top: 65px;
-  padding-left: 30px;
+  padding-left: 60px;
 }
 
 td,
@@ -106,17 +106,25 @@ th {
   justify-content: space-between;
 }
 
+th {
+  color: #9490ff;
+}
+
 td {
   width: 410px;
   align-items: center;
-  color: #efeff7;
-  font-weight: 400;
-  font-size: 15px;
+  color: #f5f5ff;
+  font-weight: 300;
+  font-size: 14px;
   justify-content: space-between;
 }
 
-#tb {
+#tb1,
+#tb2,
+#tb3,
+#tb4 {
   padding-top: 30px;
+  padding-left: 29px;
 }
 
 #social {
@@ -147,10 +155,13 @@ p {
   line-height: 28px;
   text-align: left;
   color: #c8c8d4;
-  padding-left: 24px;
+  padding-left: 34px;
 }
 
-#block {
+#block1,
+#block2,
+#block3,
+#block4 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -166,10 +177,22 @@ p {
   padding-left: 30px;
 }
 
-#a,
-#b,
-#c,
-#d {
+#a1,
+#a2,
+#a3,
+#a4,
+#b1,
+#b2,
+#b3,
+#b4,
+#c1,
+#c2,
+#c3,
+#c4,
+#d1,
+#d2,
+#d3,
+#d4 {
   font-weight: 600;
   font-size: 15px;
   padding-right: 3px;
@@ -177,9 +200,18 @@ p {
   color: aliceblue;
 }
 
-#a,
-#b,
-#c {
+#a1,
+#a2,
+#a3,
+#b1,
+#b2,
+#b3,
+#c1,
+#c2,
+#c3,
+#d1,
+#d2,
+#d3 {
   border-right: 1px solid #9f8c8c;
 }
 
@@ -229,10 +261,6 @@ h3 {
   width: 327px;
 }
 
-#con {
-  text-align: center;
-}
-
 .contactform {
   display: flex;
   flex-direction: column;
@@ -273,7 +301,9 @@ h3 {
   padding-top: 35px;
 }
 
-#vectorline {
+#vectorline1,
+#vectorline2,
+#vectorline3 {
   position: absolute;
   padding: 20px 0 40px 40px;
 }
@@ -314,9 +344,18 @@ h4 {
   align-items: center;
   text-align: center;
   color: #9390ff;
+  margin-bottom: 10px;
+  margin-left: 40px;
 }
 
 #email {
   color: #ebebff;
   text-align: center;
+}
+
+#feature1,
+#feature2,
+#feature3,
+#feature4 {
+  padding-top: 20px;
 }
