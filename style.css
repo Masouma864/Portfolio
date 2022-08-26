@@ -37,6 +37,7 @@ body {
   width: 327px;
   height: 100px;
 }
+
 h1 {
   font-size: 48px;
   color: #7d73fc;
@@ -60,18 +61,17 @@ h2 {
 }
 
 #textpart {
-  width: 325px;
+  width: 329px;
   vertical-align: top;
   text-align: center;
-  padding-bottom: 0;
   margin-bottom: 0;
-  padding-left: 54px;
-  padding-right: 24px;
 }
-#int {
+
+#int,
+#con {
   width: 327px;
+  margin-left: 33px;
   height: 170px;
-  padding-top: 40px;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -79,45 +79,52 @@ h2 {
   text-align: center;
   color: #c8c8d4;
 }
-#fex-container {
-  flex-wrap: wrap;
+
+#int {
+  padding-top: 50px;
+}
+
+#flex-container {
   width: 320px;
   height: 100%;
-  padding: 18px 8px 16px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 table {
   color: aliceblue;
   text-align: left;
   border-spacing: 5px;
   padding-top: 65px;
-  padding-left: 30px;
+  padding-left: 60px;
 }
+
 td,
 th {
   text-align: left;
   justify-content: space-between;
 }
 
+th {
+  color: #9490ff;
+}
+
 td {
   width: 410px;
   align-items: center;
-  color: #efeff7;
-  font-weight: 400;
-  font-size: 15px;
+  color: #f5f5ff;
+  font-weight: 300;
+  font-size: 14px;
   justify-content: space-between;
 }
 
-#tb {
-  padding-top: 30px;
-}
 #social {
   padding-top: 30px;
   justify-content: space-between;
   padding-left: 90px;
 }
+
 #recentwork {
   padding-bottom: 22px;
   justify-content: space-between;
@@ -140,9 +147,10 @@ p {
   line-height: 28px;
   text-align: left;
   color: #c8c8d4;
-  padding-left: 24px;
+  padding-left: 34px;
 }
-#block {
+
+.block {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -150,33 +158,26 @@ p {
   height: 469px;
   padding: 24px;
 }
-#tb3 {
+
+.tb {
   text-align: left;
   border-spacing: 2px;
   margin-top: 70px;
   padding-left: 30px;
 }
-#a,
-#b,
-#c,
-#d {
+
+li {
   font-weight: 600;
+  display: inline-block;
+  margin-top: 30px;
   font-size: 15px;
   padding-right: 3px;
   line-height: 20px;
+  border-right: 1px solid #9f8c8c;
   color: aliceblue;
 }
-#a,
-#b,
-#c {
-  border-right: 1px solid #9f8c8c;
-}
-#btn {
-  margin-left: 139px;
-}
 
-button,
-#btn {
+button {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -187,8 +188,6 @@ button,
   background: #7d73fc;
   border: none;
   color: aliceblue;
-}
-button {
   margin-left: 28px;
 }
 
@@ -215,9 +214,7 @@ h3 {
   align-items: center;
   width: 327px;
 }
-#con {
-  text-align: center;
-}
+
 .contactform {
   display: flex;
   flex-direction: column;
@@ -226,28 +223,27 @@ h3 {
   position: absolute;
   width: 345px;
 }
-#media {
-  justify-content: space-between;
+
+.media {
   display: flex;
   align-items: center;
   flex-direction: row;
-  padding-top: 44px;
-  padding-left: 30px;
+  justify-content: space-between;
+  padding-top: 64px;
+  padding-left: 10px;
   text-align: center;
-  margin-left: 10px;
   width: 200px;
   height: 40px;
 }
 
 #media2 {
-  justify-content: space-between;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   flex-direction: row;
-  padding-top: 44px;
-  padding-left: 30px;
+  padding-top: 64px;
+  padding-right: 22px;
   text-align: center;
-  margin-left: 70px;
   width: 200px;
   height: 40px;
 }
@@ -257,7 +253,7 @@ h3 {
   padding-top: 35px;
 }
 
-#vectorline {
+.vectorline {
   position: absolute;
   padding: 20px 0 40px 40px;
 }
@@ -269,33 +265,49 @@ h3 {
   font-weight: 500;
   font-size: 20px;
 }
+
 input,
 textarea {
   border: 1px solid #e5e5e5;
   width: 200px;
-  color: #999999;
+  color: #999;
   margin-top: 20px;
   margin-left: 30px;
 }
+
 input {
   width: 327px;
   height: 48px;
 }
+
 textarea {
   width: 330px;
   height: 150px;
   line-height: 18px;
 }
+
 h4 {
-  font-family: "Roboto";
+  font-family: sans-serif;
   font-weight: 500;
   font-size: 52px;
   line-height: 44px;
   align-items: center;
   text-align: center;
   color: #9390ff;
+  margin-bottom: 10px;
+  margin-left: 40px;
 }
+
 #email {
   color: #ebebff;
   text-align: center;
+}
+
+.feature {
+  padding-top: 20px;
+}
+
+.button:hover {
+  background-color: #002ead;
+  transition: 0.7s;
 }
