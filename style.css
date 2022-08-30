@@ -185,7 +185,23 @@ button {
   margin-top: 12px;
   padding: 12px 8px;
   height: 50px;
+  background: #554ccb;
+  border: none;
+  color: aliceblue;
+  margin-left: 28px;
+}
+
+.button2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 89px;
+  cursor: pointer;
+  margin-top: 12px;
+  padding: 12px 8px;
+  height: 50px;
   background: #7d73fc;
+  border-radius: 10px;
   border: none;
   color: aliceblue;
   margin-left: 28px;
@@ -308,6 +324,11 @@ h4 {
 }
 
 .button:hover {
+  background-color: #002ead;
+  transition: 0.7s;
+}
+
+.button2:hover {
   background-color: #002ead;
   transition: 0.7s;
 }
