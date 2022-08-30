@@ -190,6 +190,7 @@ button {
   color: aliceblue;
   margin-left: 28px;
 }
+
 .button2 {
   display: flex;
   flex-direction: row;
@@ -204,7 +205,6 @@ button {
   color: aliceblue;
   margin-left: 28px;
 }
-
 
 h3 {
   font-weight: 500;
@@ -326,7 +326,8 @@ h4 {
   background-color: #002ead;
   transition: 0.7s;
 }
-.button2:hover{
+
+.button2:hover {
   background-color: #002ead;
   transition: 0.7s;
 }
